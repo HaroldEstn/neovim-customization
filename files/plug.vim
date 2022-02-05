@@ -8,4 +8,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'dense-analysis/ale'             " Revisa los errores de syntax and semantic
   Plug 'frazrepo/vim-rainbow'           " Permite que los {[()]} se vean de diferentes colores
   Plug 'mattn/emmet-vim'                " Es muy bueno para los tags ahorra mucho tiempo
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Autocompletado
+  Plug 'Shougo/neco-syntax'             " Fuente general de auto completado
+  Plug 'deoplete-plugins/deoplete-jedi' " Fuente para Python
+  Plug 'mhartington/nvim-typescript'    " Fuente para Typescript
+  Plug 'wokalski/autocomplete-flow'     " Fuente para Javascript
+  Plug 'kristijanhusak/deoplete-phpactor' " Fuente para PHP
 call plug#end()
