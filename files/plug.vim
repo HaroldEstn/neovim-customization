@@ -13,5 +13,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'deoplete-plugins/deoplete-jedi' " Fuente para Python
   Plug 'wokalski/autocomplete-flow'     " Fuente para Javascript
   Plug 'kristijanhusak/deoplete-phpactor' " Fuente para PHP
+  Plug 'alvan/vim-closetag'             " Cierra los tags html
 call plug#end()
 
