@@ -24,6 +24,7 @@ colorscheme default
 set noshowmode
 hi ColorColumn ctermbg=lightcyan guibg=#303030
 hi Visual guifg=#300000
+hi Pmenu guibg=#1e0000
 
 let $path = "~/.config/nvim/files"
 

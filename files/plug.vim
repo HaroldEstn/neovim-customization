@@ -14,4 +14,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'mhartington/nvim-typescript'    " Fuente para Typescript
   Plug 'wokalski/autocomplete-flow'     " Fuente para Javascript
   Plug 'kristijanhusak/deoplete-phpactor' " Fuente para PHP
+  Plug 'alvan/vim-closetag'             " Cierra los tags html
 call plug#end()
+
