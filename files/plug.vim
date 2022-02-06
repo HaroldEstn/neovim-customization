@@ -11,9 +11,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Autocompletado
   Plug 'Shougo/neco-syntax'             " Fuente general de auto completado
   Plug 'deoplete-plugins/deoplete-jedi' " Fuente para Python
-  Plug 'mhartington/nvim-typescript'    " Fuente para Typescript
   Plug 'wokalski/autocomplete-flow'     " Fuente para Javascript
   Plug 'kristijanhusak/deoplete-phpactor' " Fuente para PHP
-  Plug 'alvan/vim-closetag'             " Cierra los tags html
 call plug#end()
 
