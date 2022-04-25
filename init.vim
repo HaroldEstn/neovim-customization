@@ -20,7 +20,6 @@ syntax enable
 
 set termguicolors
 set background=dark
-colorscheme default
 set noshowmode
 hi ColorColumn ctermbg=lightcyan guibg=#303030
 hi Visual guifg=#300000
@@ -36,3 +35,6 @@ so $path/config.vim
 
 " maps
 so $path/maps.vim
+
+colorscheme material
+

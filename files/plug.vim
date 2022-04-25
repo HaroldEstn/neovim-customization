@@ -9,11 +9,15 @@ call plug#begin('~/.vim/plugged')
   Plug 'frazrepo/vim-rainbow'           " Permite que los {[()]} se vean de diferentes colores
   Plug 'mattn/emmet-vim'                " Es muy bueno para los tags ahorra mucho tiempo
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Autocompletado
-  Plug 'Shougo/neco-syntax'             " Fuente general de auto completado
   Plug 'deoplete-plugins/deoplete-jedi' " Fuente para Python
+  Plug 'Shougo/neco-syntax'             " Fuente general de auto completado
   Plug 'wokalski/autocomplete-flow'     " Fuente para Javascript
   Plug 'kristijanhusak/deoplete-phpactor' " Fuente para PHP
   Plug 'Shougo/deoplete-clangx'
   Plug 'alvan/vim-closetag'             " Cierra los tags html
+  Plug 'ryanoasis/vim-devicons'         " Iconos 
+  Plug 'marko-cerovac/material.nvim'    " Colorsheme
+  Plug 'rafamadriz/neon'                " Colorsheme
+  Plug 'xiyaowong/nvim-transparent'     " Transparent
 call plug#end()
 
