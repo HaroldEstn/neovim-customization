@@ -19,5 +19,11 @@ call plug#begin('~/.vim/plugged')
   Plug 'marko-cerovac/material.nvim'    " Colorsheme
   Plug 'rafamadriz/neon'                " Colorsheme
   Plug 'xiyaowong/nvim-transparent'     " Transparent
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'  " Telescope
+  Plug 'sharkdp/fd'                     " Finder
+  Plug 'nvim-treesitter/nvim-treesitter' " Finder Preview
+  Plug 'gko/vim-coloresque'             " Preview Colors
+  Plug 'suxpert/vimcaps'                " Turn off Caps Lock
 call plug#end()
 

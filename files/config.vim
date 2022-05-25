@@ -64,4 +64,6 @@ call deoplete#custom#var('clangx', 'default_cpp_options', '')
 let g:material_style = "palenight"
 let g:neon_style = "default"
 
+" Theme airline
+let g:airline_theme='owo'
 

@@ -2,8 +2,8 @@ set number
 set relativenumber
 set nowrap
 set cursorline
-autocmd InsertEnter * highlight CursorLine guibg=#000037 guifg=fg
-autocmd InsertLeave * highlight CursorLine guibg=#300000 guifg=fg
+autocmd InsertEnter * highlight CursorLine guibg=#000037
+autocmd InsertLeave * highlight CursorLine guibg=#363945
 set colorcolumn=120
 
 set tabstop=2
