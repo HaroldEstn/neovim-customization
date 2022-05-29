@@ -16,6 +16,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'Shougo/deoplete-clangx'
   Plug 'alvan/vim-closetag'             " Cierra los tags html
   Plug 'ryanoasis/vim-devicons'         " Iconos 
+  Plug 'kyazdani42/nvim-web-devicons'   " Iconos
+  Plug 'romgrk/barbar.nvim'             " Top tabs
   Plug 'marko-cerovac/material.nvim'    " Colorsheme
   Plug 'rafamadriz/neon'                " Colorsheme
   Plug 'xiyaowong/nvim-transparent'     " Transparent
