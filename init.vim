@@ -37,4 +37,5 @@ so $path/config.vim
 so $path/maps.vim
 
 colorscheme material
+hi LineNr guifg=#F7EF99
 
